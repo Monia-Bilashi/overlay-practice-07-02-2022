@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: yellow;
+    left: 25%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+}
+
+.box2 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    top: 3%;
+    left: 10%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    opacity: .4;
+    transition: 1s;
+}
+
+.overlay:hover {
+    transform: translatey(100%);
+}
+
+.overlay2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 0%;
+    opacity: .6;
+    transition: 8s;
+}
+
+.overlay2:hover {
+    transform: translatey(50%);
+}
+
+.overlay3 {
+    width: 800px;
+    height: 600px;
+    background-color: hotpink;
+    position: absolute;
+    top: 0%;
+    opacity: .6;
+    transition: 5s;
+}
+
+.overlay3:hover {
+    transform: translatey(80%);
+}
